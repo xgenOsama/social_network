@@ -1,0 +1,8 @@
+<?php
+
+$db_conn = mysqli_connect('mysql.hostinger.ae', 'root', 'g33k', 'social_media');
+if (mysqli_connect_errno()) {
+    echo mysqli_connect_error();
+    exit();
+}  
+?>
