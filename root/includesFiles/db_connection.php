@@ -1,6 +1,6 @@
 <?php
 
-$db_conn = mysqli_connect('mysql.hostinger.ae', 'u156121337_g33k', 'hunter', 'u156121337_soci');
+$db_conn = mysqli_connect('localhost', 'root', 'g33k', 'social');
 if (mysqli_connect_errno()) {
     echo mysqli_connect_error();
     exit();

@@ -1,6 +1,6 @@
 <?php
     session_start();
- include_once('root/includesFiles/db_connection.php');
+ include_once('db_connection.php');
  /// Files that include this file at the very top would not required
 /// connect to database or session_start() be careful
 // initialize some vars
