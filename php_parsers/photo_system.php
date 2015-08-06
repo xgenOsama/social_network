@@ -43,8 +43,8 @@
         	exit();
         }
         include_once("../root/includesFiles/image_resize.php");
-        $target_file = "../../user/$log_username/$db_file_name";
-        $resize_file = "../../user/$log_username/$db_file_name";
+        $target_file = "../user/$log_username/$db_file_name";
+        $resize_file = "../user/$log_username/$db_file_name";
         $wmax = 200;
         $hmax = 300;
         img_resize($target_file,$resize_file,$wmax,$hmax,$fileExt);
